@@ -1,0 +1,23 @@
+{
+  "name": "hexo-translate-title-fixed",
+  "version": "1.0.1",
+  "description": "Translate the Chinese title of HEXO into English",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "hexo",
+    "permalink"
+  ],
+  "dependencies": {
+    "deepl-node": "^1.3.1",
+    "request": "2.88.0",
+    "request-promise": "4.2.2",
+    "tencentcloud-sdk-nodejs": "^4.0.374"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/609923924/hexo-translate-title-fixed"
+  },
+  "author": "oliverkirk",
+  "license": "MIT"
+}
