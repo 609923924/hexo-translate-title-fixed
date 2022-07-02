@@ -11,7 +11,6 @@ hexo.extend.filter.register('before_post_render', async function (data) {
         return data;
     }
     let translate_way = config.translate_title.translate_way;
-    console.log('由[%s]提供翻译\n',translate_way);
     if (translate_way == 'google') {
         let is_need_proxy = config.translate_title.is_need_proxy;
         let proxy_url = config.translate_title.proxy_url;
