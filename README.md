@@ -5,6 +5,10 @@
 1. 新增腾讯翻译与deepl翻译
 2. 删除百度翻译无appid版,修改百度翻译api地址，修改接口名为baidu;删除有道翻译
 3. 新增逻辑：当文章中已包含translate_title字段且不为空时，直接使用translate_title中的内容，不进行翻译
+## 安装
+```
+npm i hexo-translate-title-fixed --save
+```
 ## 使用
 1.配置hexo根项目下的_config.yml
 ```
