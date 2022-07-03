@@ -1,6 +1,6 @@
 {
   "name": "hexo-translate-title-fixed",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Translate the Chinese title of HEXO into English",
   "main": "index.js",
   "scripts": {},
