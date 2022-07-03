@@ -17,7 +17,7 @@ hexo.extend.filter.register('before_post_render', async function (data) {
         let return_data = await util.google_translation(data, 'zh-CN', 'en', is_need_proxy, proxy_url);
     }
     else if (translate_way == 'baidu') {
-        let return_data = await util.baidu_translation_with_appid(data, 'zh', 'en', config.translate_title.baidu_appid, config.translate_title.baidu_appkey);
+        let return_data = await util.baidu_translation(data, 'zh', 'en', config.translate_title.baidu_appid, config.translate_title.baidu_appkey);
     }
     else if (translate_way == 'tencent') {
         let return_data = await util.tencent_translation(data, 'zh', 'en',config.translate_title.secretid,config.translate_title.secretkey);
